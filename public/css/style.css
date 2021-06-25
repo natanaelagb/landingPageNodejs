@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+.text-golden{
+    color: #665600;
+}
+
+
+.w-70{
+    width: 70% !important;
+}
+
+.mt-6{
+    margin-top: 4rem !important;
+}
+
+.mb-6{
+    margin-bottom: 4rem !important;
+}
+
+.bg-content{
+    background-color: #d8d0d0;
+}
+
+.btn-whatsapp{
+    background-color: #25D366;
+    color: white;
+}
+
+.border-grey{
+    border-color: #a8a7a6e8 !important;
+}
+
+#ContactSection{
+    position: relative;
+}
+
+.background{
+    background-image: url("../image/bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.overlay{ 
+    position: absolute;
+    background-color: rgba(40, 46, 58, .8);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+#mylogo{
+    max-width: 300px;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box-content{
+    padding: 40px;
+    background-color: rgba(0,0,0,.4);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+picture{
+    color: white;
+}
+
+picture > div > img{
+    width: 138px;
+    border-radius: 50%;
+    border: 5px solid rgba(255,255,255,.05);
+}
+picture > h2{
+    color: white;
+}
+
+#content-info{
+    width: 70%;
+}
+
+#content-info > h3 {
+    margin-bottom: auto;
+}
+
+#content-info > p {
+    margin-bottom: auto;
+}
+
+.box-contact{
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgba(102,112,128,.5);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.single-card:hover{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.3);
+    /* box-shadow: 0px 5px 15px #aaa; */
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+
+.divider-section{
+	height: 1rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+#TestimonySection{
+    background-color: rgba(246, 246, 246, 1.0);
+    padding: 40px 0;
+}
+.depositions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item{
+    position: relative;
+    max-width: 180px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 5%);
+    margin: 0 10px;
+    padding: 14px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.thumb-item{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    border-radius: 50%;
+}
+
+#InformationSection{
+    padding: 40px 0;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.information-item{
+    padding: 20px;
+    width: 50%;
+}
+
+#FooterSection{
+    background-color: rgba(32, 36, 39, 1);
+    height: 400px;
+}
+
+@media screen and (max-width: 750px) {
+    .box{
+        flex-direction: column;
+    }
+    picture{
+        margin-bottom: 30px;
+    }
+
+    #content-info{
+        width: 100%;
+    }
+
+    #content-info > h3 {
+        margin-bottom: 20px;
+    }
+    
+    #content-info > p {
+        margin-bottom: 20px;
+    }
+
+    
+    .information{
+        flex-direction: column;
+    }
+
+    .information-item{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .depositions{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item{
+        margin-bottom: 4rem;
+    }
+}

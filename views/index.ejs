@@ -1,0 +1,114 @@
+<%- include ("partials/header.ejs") %>
+<body>
+
+    <section id="ContactSection">
+        <div class="background"></div>
+        <div class="overlay"></div>
+        <div class="center">
+            <div class="d-flex justify-content-center flex-column text-center ">
+                <div class="text-center mb-3"><img id="mylogo" src = "image/samuellogo.png" ></div>
+                <div class="box box-content ">
+
+                    <picture class="me-4">
+                        <div class="text-center"><img class="mb-3" src="/image/img.jpeg"></div>
+                        <h2 class="fs-5 mb-2">Samuel Pereira de Souza</h2>
+                        <p class="mb-0">Advogado *****</p>
+                    </picture>
+                    
+                    <div id="content-info" class="text-white d-flex flex-column">
+                        <h3 class="text-warning">ATENÇÃO</h3>
+                        <p class="fs-4">Caso tenha recebido alguma notificação da justiça do trabalho peça uma análise no botão abaixo.</p>
+                        <b>Não advogamos para empregados</b>
+                    </div>
+                </div>
+                <div class="box box-contact">
+                    <h2 class="display-6 text-white fs-3 mb-3 fw-normal">Fale Comigo</h2>
+                    <div>
+                        <button 
+                            id="redirectBtn"
+                            class = "btn btn-whatsapp btn-lg fw-bold"
+                            style="text-decoration: none;"  
+                            onclick="window.open('http://api.whatsapp.com/send?1=pt_BR&phone=5538988564548', 
+                            '_system', 'location=yes'); return false;"
+                        >
+                            Enviar Mensagem no Whatsapp
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>     
+    </section>
+
+    <section id="TestimonySection">
+        <div class="center">
+            <h2 class="display-6 text-center mb-6">Depoimento de nossos clientes</h2>
+            <div class="depositions">
+                
+                <div class="item">
+                    <img class="thumb-item" src="/image/natan.jpg">
+                    <h3 class="fw-normal fs-4 mb-3 text-info mt-6">Natanael Aguilar</h3>
+                    <p class="fw-light text-secondary">Vestibulum ullamcorper venenatis justo a posuere. 
+                        Sed at justo maximus, aliquam nisi non, dapibus lectus.
+                        Duis aliquam leo eget eros.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <img class="thumb-item" src="/image/sabrina.jpg">
+                    <h3 class="fw-normal fs-4 mb-3 text-info mt-6">Júnia Sabrina</h3>
+                    <p class="fw-light text-secondary">Vestibulum ullamcorper venenatis justo a posuere. 
+                        Sed at justo maximus, aliquam nisi non, dapibus lectus.
+                        Duis aliquam leo eget eros.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <img class="thumb-item" src="/image/rafael.jpg">
+                    <h3 class="fw-normal fs-4 mb-3 text-info mt-6">Rafael Caldeira</h3>
+                    <p class="fw-light text-secondary">Vestibulum ullamcorper venenatis justo a posuere. 
+                        Sed at justo maximus, aliquam nisi non, dapibus lectus.
+                        Duis aliquam leo eget eros.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="InformationSection">
+        <div class="center">
+            <h2 class="display-6 text-center mb-6 text-secondary">Saiba qual diagnóstico escolher</h2>
+            <div class="information">
+                <div class="information-item text-secondary">
+                    <p>
+                         <b>Diagnóstico trabalhista:</b> voltado para empresas de qualquer setor que possua ao menos um empregado,
+                        pelo mesmo você entenderá onde está perdendo dinheiro e quais ferramentas são adequadas ao seu negócio.
+                    </p>
+                </div>
+                <div class="information-item text-secondary">
+                    <p>
+                        <b>Diagnóstico trabalhista:</b> voltado para empresas de qualquer setor que possua ao menos um empregado,
+                       pelo mesmo você entenderá onde está perdendo dinheiro e quais ferramentas são adequadas ao seu negócio.
+                   </p>
+                </div>
+                <div class="information-item text-secondary">
+                    <p>
+                        <b>Diagnóstico trabalhista:</b> voltado para empresas de qualquer setor que possua ao menos um empregado,
+                       pelo mesmo você entenderá onde está perdendo dinheiro e quais ferramentas são adequadas ao seu negócio.
+                   </p>
+                </div>
+                <div class="information-item text-secondary">
+                    <p>
+                        <b>Diagnóstico trabalhista:</b> voltado para empresas de qualquer setor que possua ao menos um empregado,
+                       pelo mesmo você entenderá onde está perdendo dinheiro e quais ferramentas são adequadas ao seu negócio.
+                   </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="FooterSection">
+
+    </section>
+</body>
+<%- include ("partials/footer.ejs") %>
